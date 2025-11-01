@@ -13,5 +13,15 @@ public class Exercise {
 
         plane.fly();
         tractor.forward();
+
+        plane.fly();
+        plane.takeOff();
+        plane.land();
+
+        tractor.forward();
+        tractor.backward();
+
+        plane.maintenance();
+        tractor.maintenance();
     }
 }
